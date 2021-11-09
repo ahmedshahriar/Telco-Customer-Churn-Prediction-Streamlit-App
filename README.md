@@ -24,7 +24,7 @@ To run this app `streamlit run app.py`
 * [GitHub Dataset URL](https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data)
 
 ### GitHub Project Repository 
-* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction) ![](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)
+* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
 
 ## View The Project
 * View the Project in Jupyter Notebook Html : [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
