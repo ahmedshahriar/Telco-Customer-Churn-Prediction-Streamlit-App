@@ -201,9 +201,12 @@ def user_input_features():
     min_value_total = monthly_charges * tenure
     max_value_total = (monthly_charges * tenure) + 100
 
+    st.sidebar.markdown("TotalCharges = MonthlyCharges * Tenure + Extra Cost ( ~100 )")
+
     # TotalCharges slider
     total_charges = st.sidebar.slider("Total Charges", min_value_total, max_value_total)
 
+    # Churn filter
     data = {'gender': [gender],
             'SeniorCitizen': [1 if senior_citizen.lower() == 'yes' else 0],
             'Partner': [partner],
