@@ -18,11 +18,12 @@ scikit-learn==1.0.1
 To run this app `streamlit run app.py`
 
 
-### Dataset Source :
+### Dataset Source 
 
 * [Kaggle Dataset URL](https://www.kaggle.com/blastchar/telco-customer-churn)
 * [GitHub Dataset URL](https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data)
 
+<<<<<<< HEAD
 ### Also : 
 * Check the **GitHub Project Repository**\
 [![](https://img.shields.io/badge/Customer%20Churn%20Prediction-GitHub-100000?logo=github&logoColor=white)](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
@@ -30,6 +31,14 @@ To run this app `streamlit run app.py`
 
 * View the Project in Jupyter Notebook **Html**\
 [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
+=======
+### GitHub Project Repository 
+* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
+
+## View The Project
+* View the Project in Jupyter Notebook Html : [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
+* Open The GitHub Project in Binder : [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
+>>>>>>> 011b31494915ed631129e137a36eef257af0ea26
 
 
 * Open The GitHub Project in **Binder**\
