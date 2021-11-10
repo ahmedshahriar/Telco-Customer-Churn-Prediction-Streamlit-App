@@ -18,19 +18,28 @@ st.title('Telco Customer Churn Prediction')
 
 st.markdown("""
 The churn rate, also known as the rate of attrition or customer churn, is the rate at which customers stop doing 
-business with an entity. In this project, I will predict the churn rate of customers in a telecom company.
+business with an entity. 
 
-### Dataset Source :
+You will predict the churn rate of customers in a telecom company using a stored model based on XGBoost, CatBoost or 
+LightGBM.
+
+## Instructions
+1. Select the model you want to use from the dropdown box in the sidebar
+2. To check the accuracy of the model, click on the **`Performance on Test Dataset`** button in the sidebar
+3. To predict churn rate of a single observation, click on the **`Prediction on Random Instance`** button in the sidebar
+4. The result will be displayed in the **[Prediction Result](#prediction-result)** section
+
+## Dataset Source :
 
 * [Kaggle Dataset URL](https://www.kaggle.com/blastchar/telco-customer-churn)
 * [GitHub Dataset URL](https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data)
 
-### GitHub Project Repository :
+You can also : 
+* Check the **GitHub Project Repository**   [![](https://img.shields.io/badge/Customer%20Churn%20Prediction-GitHub-100000?logo=github&logoColor=white)](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
 
-* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
+* View the Project in **Jupyter Notebook Html**   [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
 
-* View the notebook in Html : [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
-* Open The GitHub Project in Binder : [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
+* Open The GitHub Project in **Binder**  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
 
 ### You can also view this notebook on kaggle
 
@@ -201,7 +210,7 @@ def user_input_features():
     min_value_total = monthly_charges * tenure
     max_value_total = (monthly_charges * tenure) + 100
 
-    st.sidebar.markdown("TotalCharges = MonthlyCharges * Tenure + Extra Cost ( ~100 )")
+    st.sidebar.markdown("**`TotalCharges`** = `MonthlyCharges` * `Tenure` + `Extra Cost ( ~100 )`")
 
     # TotalCharges slider
     total_charges = st.sidebar.slider("Total Charges", min_value_total, max_value_total)

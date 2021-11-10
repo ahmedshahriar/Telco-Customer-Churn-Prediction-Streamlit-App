@@ -23,14 +23,20 @@ To run this app `streamlit run app.py`
 * [Kaggle Dataset URL](https://www.kaggle.com/blastchar/telco-customer-churn)
 * [GitHub Dataset URL](https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data)
 
-### GitHub Project Repository :
+### Also : 
+* Check the **GitHub Project Repository**\
+[![](https://img.shields.io/badge/Customer%20Churn%20Prediction-GitHub-100000?logo=github&logoColor=white)](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
 
-* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
 
-* View the notebook in Html : [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
-* Open The GitHub Project in Binder : [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
+* View the Project in Jupyter Notebook **Html**\
+[![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html) 
 
-### You can also view this notebook on kaggle
+
+* Open The GitHub Project in **Binder**\
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
+
+  
+### View this notebook on kaggle
 
 1. [Churn Prediction I : EDA+Statistical Analysis](https://www.kaggle.com/ahmedshahriarsakib/churn-prediction-i-eda-statistical-analysis)
 2. [Churn Prediction II : Triple Boost Stacking+  Optuna](https://www.kaggle.com/ahmedshahriarsakib/churn-prediction-ii-triple-boost-stacking-optuna)
