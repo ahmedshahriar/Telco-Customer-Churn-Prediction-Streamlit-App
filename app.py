@@ -18,16 +18,18 @@ st.title('Telco Customer Churn Prediction')
 
 st.markdown("""
 The churn rate, also known as the rate of attrition or customer churn, is the rate at which customers stop doing 
-business with an entity. 
+business with an entity (e.g., Business Organization). 
 
 You will predict the churn rate of customers in a telecom company using a stored model based on XGBoost, CatBoost or 
 LightGBM.
 
 ## Instructions
-1. Select the model you want to use from the dropdown box in the sidebar
-2. To check the accuracy of the model, click on the **`Performance on Test Dataset`** button in the sidebar
+1. Select the classifier (model) you want to use from the dropdown box in the sidebar
+2. To check the accuracy of the classifier, click on the **`Performance on Test Dataset`** button in the sidebar
 3. To predict churn rate of a single observation, click on the **`Prediction on Random Instance`** button in the sidebar
-4. The result will be displayed in the **[Prediction Result](#prediction-result)** section
+4. Or you can predict churn rate by manual input from the sidebar, scroll down and click **`Predict`** button 
+5. The result will be displayed in the **[Prediction Result](#prediction-result)** section
+
 
 ## Dataset Source :
 
@@ -69,6 +71,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.markdown(download_dataset(df_churn), unsafe_allow_html=True)
 
 st.markdown("## Prediction Result")
+
 
 st.sidebar.markdown("## Predict Customer Churn Rate")
 # st.sidebar.markdown("### Select a Model")
@@ -283,4 +286,3 @@ if st.sidebar.button('Predict'):
     st.markdown(f"Prediction result : {'**Churned**' if test_pred[0]>0.5 else '**Not Churned**'} (Probability: {test_pred[0] : 0.2f}) ")
     st.write("User Input Features")
     st.dataframe(input_df)
-
