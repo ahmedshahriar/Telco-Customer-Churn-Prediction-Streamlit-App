@@ -1,6 +1,10 @@
 # Telco Customer Churn Prediction Streamlit App
 [![Live in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io//ahmedshahriar/Telco-Customer-Churn-Prediction-Streamlit-App/main/app.py)
 
+![](https://im6.ezgif.com/tmp/ezgif-6-b81af171dcb0.gif)
+
+**This app was featured in [Streamlit Weekly Roundup](https://discuss.streamlit.io/t/weekly-roundup-streamlit-as-a-powerpoint-google-trends-excel-file-updates-and-more/19045#finance-and-business-9)**
+
 Install packages `pip install requirements.txt`
 
 Requires
