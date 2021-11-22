@@ -1,7 +1,7 @@
 # Telco Customer Churn Prediction Streamlit App
 [![Live in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io//ahmedshahriar/Telco-Customer-Churn-Prediction-Streamlit-App/main/app.py)
 
-![Pulse point incidents by state](https://user-images.githubusercontent.com/40615350/142819900-60053284-5266-4a66-87a3-cddcb2f0d929.gif "Pulse point incidents by state")
+![Telco Customer Churn Prediction Streamlit](https://user-images.githubusercontent.com/40615350/142819900-60053284-5266-4a66-87a3-cddcb2f0d929.gif "Telco Customer Churn Prediction Streamlit")
 
 **This app was featured in [Streamlit Weekly Roundup](https://discuss.streamlit.io/t/weekly-roundup-streamlit-as-a-powerpoint-google-trends-excel-file-updates-and-more/19045#finance-and-business-9)**
 
